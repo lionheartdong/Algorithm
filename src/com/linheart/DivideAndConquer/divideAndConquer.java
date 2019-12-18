@@ -20,7 +20,7 @@ public class divideAndConquer {
 			System.out.println("第"+num+"个盘"+a+"->"+c);
 			//最后把B中的盘移动到C中，而由于打出的移动命令总是"a->c"，因此需要将a和b交换位置，才能正确打出移动命令
 			HanoiTower(num-1, b, a, c);
-			
+			System.out.println();
 		}
 	}
 }
